@@ -26,12 +26,12 @@
   <!-- =================MAIN CONTENT=============== -->
   <div class="form-wrapper"> 
     
-    <form action="/thank-you" method="POST" target="_self" netlify>
+    <form name="contact-form" action="/thank-you" method="POST" target="_self" netlify>
       <h1>Contact Us</h1><hr>
       <label for="name">Name: </label>
-      <input type="text" id="name" class="form-name form-input" placeholder="Joe Smith" minlength="2" maxlength="350" required><br>
+      <input name="email" type="text" id="name" class="form-name form-input" placeholder="Joe Smith" minlength="2" maxlength="350" required><br>
       <label for="email">Email: </label>
-      <input type="email" id="email" class="form-email form-input" placeholder="joe.smith@example.com" maxlength="200" required><br>
+      <input name="email" type="email" id="email" class="form-email form-input" placeholder="joe.smith@example.com" maxlength="200" required><br>
       <label for="message">Message: </label><br>
       <textarea name="messsage" id="message" class="form-message form-input" cols="30" rows="10" placeholder="Message here..." minlength="30" maxlength="700" required></textarea><br>
       <input type="submit" value="Send">
